@@ -1,0 +1,12 @@
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+}

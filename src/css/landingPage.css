@@ -1,11 +1,11 @@
-#wrapper {
+.holder {
     background-image: url(https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ);
     background-size: cover;
     overflow: hidden;
     height: 100%;
 }
 
-#wrapper h1 {
+.textHolder {
     color: #fff;
     margin: 50px 0px;
 }
