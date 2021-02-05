@@ -1,0 +1,41 @@
+.servicesTextHolder {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.servicesTextHolder h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.servicesFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.servicesFlexContainer li {
+    display: inline-block;
+    justify-self: center;
+    padding: 10px 10px;
+    flex-basis: 400px
+}
+
+.servicesFlexContainer li div {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.servicesFlexContainer li div h3 {
+    font-weight: 500;
+}
+
+.servicesFlexContainer li div p {
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+}

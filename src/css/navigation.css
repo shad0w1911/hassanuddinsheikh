@@ -1,11 +1,20 @@
+nav {
+    display: inline-block;
+}
+
+nav .container h1 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
 nav ul {
     list-style: none;
-    text-align: center;
 }
 
 nav ul li {
-    display: block;
-    float: left;
+    display: inline-block;
+    float: none;
     letter-spacing: 2px;
     padding: 10px;
     text-align: center;

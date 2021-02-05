@@ -1,11 +1,26 @@
-.holder {
+.landingImageHolder {
     background-image: url(https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ);
     background-size: cover;
     overflow: hidden;
     height: 100%;
 }
 
-.textHolder {
+.landingTextHolder {
+    padding: 100px 50px;
+    /* font-family: 'Palanquin', sans-serif; */
+}
+
+.primaryText {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.secondaryText {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.landingButton {
+    background-color: #0070D0;
     color: #fff;
-    margin: 50px 0px;
 }
