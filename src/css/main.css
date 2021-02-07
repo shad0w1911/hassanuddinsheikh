@@ -9,4 +9,16 @@
 html,
 body {
     font-family: 'Quicksand', serif;
+    scroll-behavior: smooth;
+}
+
+.headingTextHolder {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.headingTextHolder h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
 }

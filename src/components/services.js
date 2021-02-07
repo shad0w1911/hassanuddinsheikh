@@ -5,11 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDesktop, faCode, faPaintBrush} from '@fortawesome/free-solid-svg-icons';
 
 class Services extends React.Component {
-    
     render(){
         return(
             <Container fluid="true" className="bg-light">
-                <div className="servicesTextHolder">
+                <div className="headingTextHolder">
                     <h1>Services</h1>
                 </div>
                     <ul className="servicesFlexContainer">

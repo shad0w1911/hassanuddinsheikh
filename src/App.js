@@ -3,10 +3,10 @@ import './css/bootswatch/bootstrap.css';
 import React from 'react';
 import About from './components/about';
 import LandingPage from './components/landingPage';
-import Portfolio from './components/portfolio';
 import ContactPage from './components/contact';
-import Skills from './components/skills';
 import NavigationBar from './components/navigation';
+import Skills from './components/skills';
+import Portfolio from './components/portfolio';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <Skills/>
       <Portfolio/>
       <ContactPage/>
+      
     </React.Fragment>
   );
 }
