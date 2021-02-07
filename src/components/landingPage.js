@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
                         <div className="landingTextHolder">
                             <p className="primaryText">Hello, I'm Hassan</p>
                             <p className="secondaryText">Graphics Designer &<br/> Front End Developer</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, ex!</p>
+                            <p className="paragraph">I design and code beautifully simple things, and I love what I do. Feel free to contact me for any project or collaboration.</p>
                             <button className="btn btn-lg landingButton">Hire Me</button>
                         </div>
                     </Col>

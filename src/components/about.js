@@ -29,20 +29,12 @@ class About extends React.Component{
                                             </li>
                                             <li>
                                                 <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
-                                                <span>Website:</span> hus.io
-                                            </li>
-                                            <li>
-                                                <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
                                                 <span>Email:</span> hassanuddin@protonmail.com
                                             </li>
                                         </ul>
                                     </Col>
                                     <Col>
                                         <ul>
-                                            <li>
-                                                <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
-                                                <span>Age:</span> 22
-                                            </li>
                                             <li>
                                                 <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
                                                 <span>City:</span> Karachi
@@ -57,8 +49,6 @@ class About extends React.Component{
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolore ratione iure, ipsam deserunt consequuntur quos rem iusto itaque laborum nemo at minima. Quidem fugit non sit vero voluptatibus eum!</p>
                             </Col>
                         </Row>
-                        <div>
-                        </div>
                     </Container>
                 </Container>
             </ScrollAnimation>

@@ -21,6 +21,10 @@
     font-weight: 600;
 }
 
+.paragraph {
+    font-size: 20px;
+}
+
 .landingButton {
     background-color: #0070D0;
     color: #fff;

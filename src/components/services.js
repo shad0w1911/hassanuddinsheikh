@@ -17,7 +17,7 @@ class Services extends React.Component {
                                 <FontAwesomeIcon icon={faDesktop} size="2x"
                                 style={{textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)', color:'#0070D0', padding: '10px 0px'}}/>
                                 <h3>Web Design</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem inventore ducimus nam iure recusandae eius odio, rem veniam voluptas praesentium.</p>
+                                <p>My approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.</p>
                             </div>
                         </li>
                         <li>
@@ -33,7 +33,7 @@ class Services extends React.Component {
                                 <FontAwesomeIcon icon={faCode} size="2x"
                                 style={{textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)', color:'#0070D0', padding: '10px 0px'}}/>
                                 <h3>Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae minus culpa tenetur voluptates maxime asperiores vitae harum adipisci omnis.</p>
+                                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
                             </div>
                         </li>
                     </ul>
