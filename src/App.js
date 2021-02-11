@@ -7,18 +7,22 @@ import ContactPage from './components/contact';
 import NavigationBar from './components/navigation';
 import Skills from './components/skills';
 import Portfolio from './components/portfolio';
+import { BrowserRouter as Router,Switch,Link, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <React.Fragment>
-      <NavigationBar/>
-      <LandingPage/>
-      <About/>
-      <Skills/>
-      <Portfolio/>
-      <ContactPage/>
-      
-    </React.Fragment>
+
+    <Router>
+      <React.Fragment>
+        <NavigationBar/>
+        <LandingPage/>
+        <About/>
+        <Skills/>
+        <Portfolio/>
+        <ContactPage/>
+        
+      </React.Fragment>
+    </Router>
   );
 }
 

@@ -9,13 +9,13 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 class About extends React.Component{
     render(){
         return(
-            <ScrollAnimation animateIn="fadeInUp">
+            <ScrollAnimation animateIn="slideInUp">
                 <Container fluid="true" className="bg-light">
                     <Container className="aboutFlexContainer">
                         <div className="headingTextHolder">
                             <h1>About Me</h1>
                         </div>
-                        <Row  className="aboutProfile">
+                        <Row className="aboutProfile">
                             <Col className="aboutProfileImg"></Col>
                             <Col className="aboutProfileText">
                                 <h1>Front End Developer & Graphics Designer</h1>

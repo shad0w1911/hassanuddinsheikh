@@ -1,12 +1,12 @@
 import '../css/skills.css';
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { Container, Row } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 class Skills extends React.Component {
     render(){
         return(
-            <ScrollAnimation animateIn="fadeInUp">
+            <ScrollAnimation animateIn="slideInUp">
                 <Container fluid="true" className="bg-light">
                     <Container>
                         <div className="headingTextHolder">

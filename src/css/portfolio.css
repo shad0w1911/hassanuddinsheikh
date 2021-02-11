@@ -1,0 +1,10 @@
+.portfolioFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolioFlexContainer div {
+    padding: 5px 5px;
+    flex-basis: 400px;
+}

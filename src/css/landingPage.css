@@ -26,6 +26,20 @@
 }
 
 .landingButton {
-    background-color: #0070D0;
+    background-color: #24a039;
     color: #fff;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
 }
+
+.landingButton:hover {
+    cursor: pointer;
+    background-color: #0e771e;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* media queries */
