@@ -1,5 +1,17 @@
-.landingImageHolder {
-    background-image: url(https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ);
+.landing {
+    background-image: url(https://i.picsum.photos/id/1067/5760/3840.jpg?hmac=gO_V7rUFdM8YddyLysCQet4CS0CzSvUcfAtHI1ismLM);
+    background-size: cover;
+    color: #fff;
+}
+
+.home {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
+.landingImage {
     background-size: cover;
     overflow: hidden;
     height: 100%;
@@ -7,39 +19,20 @@
 }
 
 .landingTextHolder {
-    padding: 100px 50px;
+    padding: 60px 50px;
     /* font-family: 'Palanquin', sans-serif; */
-}
-
-.primaryText {
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.secondaryText {
-    font-size: 30px;
-    font-weight: 600;
 }
 
 .paragraph {
     font-size: 20px;
 }
 
-.landingButton {
-    background-color: #24a039;
-    color: #fff;
-    width: 150px;
-    height: 50px;
-    text-transform: uppercase;
-    transition: 0.2s ease-in-out;
+.flipButtonHolder {
+    list-style: none;
 }
 
-.landingButton:hover {
-    cursor: pointer;
-    background-color: #0e771e;
-    text-decoration: none;
-    color: #FFF;
+.flipButtonHolder li {
+    display: inline-block;
+    float: none;
+    padding: 10px;
 }
-
-
-/* media queries */

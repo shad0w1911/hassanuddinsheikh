@@ -5,22 +5,21 @@ import About from './components/about';
 import LandingPage from './components/landingPage';
 import ContactPage from './components/contact';
 import NavigationBar from './components/navigation';
-import Skills from './components/skills';
 import Portfolio from './components/portfolio';
-import { BrowserRouter as Router,Switch,Link, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Footer } from './components/footer';
 
 function App() {
   return (
 
     <Router>
       <React.Fragment>
-        <NavigationBar/>
-        <LandingPage/>
-        <About/>
-        <Skills/>
-        <Portfolio/>
-        <ContactPage/>
-        
+          <Switch>
+            <Route exact path="/" component={LandingPage}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/portfolio" component={Portfolio}/>
+            <Route exact path="/contact" component={ContactPage}/>
+          </Switch>
       </React.Fragment>
     </Router>
   );

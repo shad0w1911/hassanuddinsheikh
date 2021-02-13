@@ -1,10 +1,36 @@
-.portfolioFlexContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.portfolio {
+    background-image: url(https://i.picsum.photos/id/188/2896/1936.jpg?hmac=tKGI_u_jJ-s7wzHbJibhbflqi57bIpH9g7FJXnTfJao);
+    background-size: cover;
+    color: #fff;
 }
 
-.portfolioFlexContainer div {
-    padding: 5px 5px;
-    flex-basis: 400px;
+.glass {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project {
+    margin: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    border: none;
+}
+
+.project a {
+    text-decoration: none;
+    color: #24a039;
+    border: 1px solid #24a039;
+    padding: 5px 10px;
+    transition: ease-in-out .3s;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    color: #fff;
+    background-color: #24a039;
+    cursor: pointer;
 }

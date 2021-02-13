@@ -7,7 +7,7 @@ import { faDesktop, faCode, faPaintBrush} from '@fortawesome/free-solid-svg-icon
 class Services extends React.Component {
     render(){
         return(
-            <Container fluid="true" className="bg-light">
+            <div>
                 <div className="headingTextHolder">
                     <h1>Services</h1>
                 </div>
@@ -17,7 +17,7 @@ class Services extends React.Component {
                                 <FontAwesomeIcon icon={faDesktop} size="2x"
                                 style={{textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)', color:'#0070D0', padding: '10px 0px'}}/>
                                 <h3>Web Design</h3>
-                                <p>My approach to website design is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi laborum totam ipsum cumque voluptatibus, pariatur dignissimos aliquid quis dolores!</p>
                             </div>
                         </li>
                         <li>
@@ -25,7 +25,7 @@ class Services extends React.Component {
                                 <FontAwesomeIcon icon={faPaintBrush} size="2x"
                                 style={{textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)', color:'#0070D0', padding: '10px 0px'}}/>
                                 <h3>Graphics Design</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nam facere ex laborum assumenda minima consequuntur debitis repellendus autem eum.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi laborum totam ipsum cumque voluptatibus, pariatur dignissimos aliquid quis dolores!</p>
                             </div>
                         </li>
                         <li>
@@ -33,11 +33,11 @@ class Services extends React.Component {
                                 <FontAwesomeIcon icon={faCode} size="2x"
                                 style={{textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)', color:'#0070D0', padding: '10px 0px'}}/>
                                 <h3>Web Development</h3>
-                                <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi laborum totam ipsum cumque voluptatibus, pariatur dignissimos aliquid quis dolores!</p>
                             </div>
                         </li>
                     </ul>
-            </Container>
+            </div>
         );
     }
 }

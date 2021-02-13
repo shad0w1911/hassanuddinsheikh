@@ -4,52 +4,38 @@ import { Col, Container, Row } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import Skills from './skills';
+import Image from '../Img/profileImg.jpg';
+import NavigationBar from './navigation';
+import { Footer } from './footer';
 
 
 class About extends React.Component{
     render(){
         return(
-            <ScrollAnimation animateIn="slideInUp">
-                <Container fluid="true" className="bg-light">
+            <ScrollAnimation animateIn="fadeIn">
+                <Container fluid="true" className="about">
+                    <NavigationBar/>
                     <Container className="aboutFlexContainer">
                         <div className="headingTextHolder">
                             <h1>About Me</h1>
                         </div>
                         <Row className="aboutProfile">
-                            <Col className="aboutProfileImg"></Col>
-                            <Col className="aboutProfileText">
-                                <h1>Front End Developer & Graphics Designer</h1>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quisquam velit maiores tempora nesciunt nihil, quam, doloribus maxime atque tempore, libero autem nobis adipisci quia eos aliquid voluptate voluptas deleniti!</p>
-                                <Row className="aboutListHolder">
-                                    <Col>
-                                        <ul>
-                                            <li>
-                                                <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
-                                                <span>Birthday:</span> 25 February
-                                            </li>
-                                            <li>
-                                                <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
-                                                <span>Email:</span> hassanuddin@protonmail.com
-                                            </li>
-                                        </ul>
-                                    </Col>
-                                    <Col>
-                                        <ul>
-                                            <li>
-                                                <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
-                                                <span>City:</span> Karachi
-                                            </li>
-                                            <li>
-                                                <FontAwesomeIcon icon={faChevronRight} className="aboutIcon"/>
-                                                <span>Freelance:</span> Available
-                                            </li>
-                                        </ul>
-                                    </Col>
-                                </Row>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolore ratione iure, ipsam deserunt consequuntur quos rem iusto itaque laborum nemo at minima. Quidem fugit non sit vero voluptatibus eum!</p>
+                            <Col lg="4" md="4">
+                                <img src={Image} alt="profileImage" className="ProfileImg img-fluid"/>
+                            </Col>
+                            <Col className="profile">
+                                <h1 className="mt-3">Front End Developer & Graphics Designer</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas aliquam, eligendi alias beatae a similique praesentium quae officia, soluta reprehenderit in quidem iure eius quo? Earum nesciunt quas magni, expedita dolorem perferendis labore nemo repellendus dignissimos? Libero ut eos minima sit eum possimus repellat officiis deserunt tempore ea ipsam qui expedita maiores corrupti culpa ipsum obcaecati quasi nesciunt, quis, alias, eius asperiores officia quo. Quidem suscipit facere ipsam doloremque modi harum reprehenderit adipisci, voluptatem est veniam similique enim ab voluptates vitae in consequuntur maxime ipsa esse ut provident perferendis blanditiis cumque eveniet! Velit cum ipsum veritatis totam? Nulla, aspernatur.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas aliquam, eligendi alias beatae a similique praesentium quae officia, soluta reprehenderit in quidem iure eius quo? Earum nesciunt quas magni, expedita dolorem perferendis labore nemo repellendus dignissimos? Libero ut eos minima sit eum possimus repellat officiis deserunt tempore ea ipsam qui expedita maiores corrupti culpa ipsum obcaecati quasi nesciunt, quis, alias, eius asperiores officia quo. Quidem suscipit facere ipsam doloremque modi harum reprehenderit adipisci, voluptatem est veniam similique enim ab voluptates vitae in consequuntur maxime ipsa esse ut provident perferendis blanditiis cumque eveniet! Velit cum ipsum veritatis totam? Nulla, aspernatur.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptas aliquam, eligendi alias beatae a similique praesentium quae officia, soluta reprehenderit in quidem iure eius quo? Earum nesciunt quas magni, expedita dolorem perferendis labore nemo repellendus dignissimos? Libero ut eos minima sit eum possimus repellat officiis deserunt tempore ea ipsam qui expedita maiores corrupti culpa ipsum obcaecati quasi nesciunt, quis, alias, eius asperiores officia quo. Quidem suscipit facere ipsam doloremque modi harum reprehenderit adipisci, voluptatem est veniam similique enim ab voluptates vitae in consequuntur maxime ipsa esse ut provident perferendis blanditiis cumque eveniet! Velit cum ipsum veritatis totam? Nulla, aspernatur.</p>
+                                
                             </Col>
                         </Row>
+                        <br/>
+                        <Skills/>
                     </Container>
+                    <Footer />
                 </Container>
             </ScrollAnimation>
         );

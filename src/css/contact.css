@@ -1,51 +1,24 @@
+.contact {
+    background-image: url(https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo);
+    background-size: cover;
+    color: #fff;
+}
+
 .formContainer {
-    padding: 0px 20px;
-    justify-content: center;
     display: flex;
-}
-
-.socialLinks {
-    list-style: none;
-    display: flex;
-    background-color: #24a039;
     justify-content: center;
+    margin-top: 20px;
 }
 
-.socialLinks li a {
-    padding: 0px 5px;
-    color: #fff;
-    font-size: 30px;
-    transition: 0.2s ease-in-out;
+.form {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
 }
 
-.socialLinks li a:hover {
-    color: rgb(207, 207, 207);
-}
-
-.contactInput {
-    width: 500px;
-    height: 40px;
-}
-
-.contactTextArea {
-    width: 500px;
-    height: 400px;
-}
-
-.contactButton {
-    background-color: #24a039;
-    color: #fff;
-    height: 50px;
-    text-transform: uppercase;
-    font-weight: lighter;
-    padding: 10px;
-}
-
-.contactButton:hover {
-    background-color: #0e771e;
-    cursor: pointer;
-    text-decoration: none;
-    color: #fff;
+input {
+    width: 380px;
 }
 
 .contact h1 {

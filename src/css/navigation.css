@@ -1,6 +1,9 @@
 nav {
+    background-color: transparent;
     display: inline-block;
     justify-content: space-between;
+    height: 60px;
+    z-index: 100;
 }
 
 nav .container h1 {
@@ -13,10 +16,17 @@ nav ul {
     list-style: none;
 }
 
-nav ul li {
+nav ul li .links {
+    text-decoration: none;
     display: inline-block;
     float: none;
     letter-spacing: 2px;
     padding: 10px;
     text-align: center;
+    color: #fff;
+}
+
+nav ul li .links:hover {
+    color: #24a039;
+    cursor: pointer;
 }
