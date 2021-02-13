@@ -2,8 +2,6 @@ import '../css/about.css';
 import React from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Skills from './skills';
 import Image from '../Img/profileImg.jpg';
 import NavigationBar from './navigation';
