@@ -24,3 +24,13 @@ input {
 .contact h1 {
     padding: 20px 0px;
 }
+
+.socialIcons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcons img {
+    width: 48px;
+    height: 48px;
+}

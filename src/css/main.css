@@ -12,7 +12,6 @@ html,
 body {
     font-family: 'Quicksand', serif;
     scroll-behavior: smooth;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .headingTextHolder {

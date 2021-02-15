@@ -17,9 +17,9 @@ class LandingPage extends React.Component {
                     <Row>
                         <Col lg md>
                             <div className="landingTextHolder">
-                                <p className="primaryText">Hello, I'm Roksolana Zasiadko</p>
+                                <p className="primaryText">Hello, I'm Hassan Uddin</p>
                                 <p className="secondaryText">Graphics Designer & Front End Developer</p>
-                                <p className="paragraph">I design and code beautifully simple things, and I love what I do. Feel free to contact me for any project or collaboration.</p>
+                                <p className="paragraph">I design and code beautifully simple things, and I love what I do.<br/>Feel free to contact me for any project or collaboration.</p>
                                 <ul className="flipButtonHolder">
                                     <li>
                                         <div class="flip">

@@ -32,7 +32,8 @@ class Portfolio extends React.Component {
                                 <CardBody>
                                     <CardTitle tag="h3">Sarwar Enterprises</CardTitle>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <a href=""><span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
+                                    <a href="http://sarwarenterprises.org/" target="blank">
+                                    <span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -42,7 +43,8 @@ class Portfolio extends React.Component {
                                 <CardBody>
                                     <CardTitle tag="h3">FnA Store</CardTitle>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <a href=""><span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
+                                    <a href="https://shad0w1911.github.io/fnademo/index.html" target="blank">
+                                    <span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -52,7 +54,8 @@ class Portfolio extends React.Component {
                                 <CardBody>
                                     <CardTitle tag="h3">Amsons Textile Mills</CardTitle>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <a href=""><span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
+                                    <a href="https://shad0w1911.github.io/amsons/" target="blank">
+                                    <span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -64,7 +67,8 @@ class Portfolio extends React.Component {
                                 <CardBody>
                                     <CardTitle tag="h3">Malik Brothers</CardTitle>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <a href=""><span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
+                                    <a href="https://shad0w1911.github.io/Malik-Brothers-2/index.html" target="blank">
+                                    <span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -74,7 +78,8 @@ class Portfolio extends React.Component {
                                 <CardBody>
                                     <CardTitle tag="h3">Great Northern Metal Co.</CardTitle>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <a href=""><span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
+                                    <a href="https://shad0w1911.github.io/GNM-Co/index.html" target="blank">
+                                    <span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -84,7 +89,8 @@ class Portfolio extends React.Component {
                                 <CardBody>
                                     <CardTitle tag="h3">Travelers</CardTitle>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <a href=""><span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
+                                    <a href="https://shad0w1911.github.io/Travlers/" target="blank">
+                                    <span><FontAwesomeIcon icon={faEye}/></span> Live View</a>
                                 </CardBody>
                             </Card>
                         </Col>
