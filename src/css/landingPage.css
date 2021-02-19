@@ -1,6 +1,5 @@
 .landing {
-    /* background-image: url(https://i.picsum.photos/id/1067/5760/3840.jpg?hmac=gO_V7rUFdM8YddyLysCQet4CS0CzSvUcfAtHI1ismLM); */
-    background-image: url(https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY);
+    background-image: url(../Img/landingBg.jpg);
     background-size: cover;
     color: #fff;
 }

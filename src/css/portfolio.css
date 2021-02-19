@@ -1,6 +1,5 @@
 .portfolio {
-    /* background-image: url(https://i.picsum.photos/id/188/2896/1936.jpg?hmac=tKGI_u_jJ-s7wzHbJibhbflqi57bIpH9g7FJXnTfJao); */
-    background-image: url(https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68);
+    background-image: url(../Img//portfolioBg.jpg);
     background-size: cover;
     color: #fff;
 }

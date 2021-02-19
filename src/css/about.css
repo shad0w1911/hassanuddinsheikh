@@ -1,5 +1,5 @@
 .about {
-    background-image: url(https://i.picsum.photos/id/1037/5760/3840.jpg?hmac=fZe213BcO2KPQEJKChsdHnVYg-6kAtQMTZV24f1fS94);
+    background-image: url(../Img/aboutBg.jpg);
     background-size: cover;
     color: #fff;
 }
@@ -13,7 +13,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .aboutProfile {

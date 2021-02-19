@@ -7,6 +7,14 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import { Footer } from './footer';
 import NavigationBar from './navigation';
 
+import dribble from '../Img/dribbble.svg';
+import facebook from '../Img/facebook.svg';
+import instagram from '../Img/instagram.webp';
+import twitter from '../Img/twitter.svg';
+import linkedin from '../Img/linkedin.svg';
+import github from '../Img/github.svg';
+
+
 export default function ContactPage() {
 
     function sendEmail(e) {
@@ -42,29 +50,23 @@ export default function ContactPage() {
                                 </div>
                                 <div className="form-group">
                                     <div className="socialIcons">
-                                        <a href="" target="blank">
-                                            <img src="https://www.flaticon.com/svg/vstatic/svg/124/124010.svg?token=exp=1613356836~hmac=49be016bb83834ab8c0188943563d85d" 
-                                            alt="facebook" style={{backgroundColor:'#fff'}}/>
+                                        <a href="https://www.facebook.com/hassoo.sheikh/" target="blank">
+                                            <img src={facebook} alt="facebook" style={{backgroundColor:'#fff'}}/>
                                         </a>
                                         <a href="https://www.instagram.com/hassaan_uddin_sheikh/?hl=en" target="blank">
-                                            <img src="https://www.flaticon.com/svg/vstatic/svg/124/124032.svg?token=exp=1613356836~hmac=60ab7dcb66e3f36a1a84f64781a7a3d2" 
-                                            alt="instagram" style={{backgroundColor:'#fff'}}/>
+                                            <img src={instagram} alt="instagram" style={{backgroundColor:'#fff'}}/>
                                         </a>
-                                        <a href="" target="blank">
-                                            <img src="https://www.flaticon.com/svg/vstatic/svg/124/124021.svg?token=exp=1613356836~hmac=82c6c41f34976a807cfbcfa2140f6092" 
-                                            alt="twitter" style={{backgroundColor:'#fff'}}/>
+                                        <a href="https://twitter.com/hassoosheikh" target="blank">
+                                            <img src={twitter} alt="twitter" style={{backgroundColor:'#fff'}}/>
                                         </a>
-                                        <a href="" target="blank">
-                                            <img src="https://www.flaticon.com/svg/vstatic/svg/124/124037.svg?token=exp=1613356779~hmac=5aebf069e06ae9d10f699e1647633e06" 
-                                            alt="dribbble" style={{backgroundColor:'#fff'}}/>
+                                        <a href="https://dribbble.com/hassoosheikh" target="blank">
+                                            <img src={dribble} alt="dribbble" style={{backgroundColor:'#fff'}}/>
                                         </a>
-                                        <a href="" target="blank">
-                                            <img src="https://www.flaticon.com/svg/vstatic/svg/124/124011.svg?token=exp=1613356836~hmac=432203fdbc1ca7f9b0f2ad65f804c847" 
-                                            alt="linkedin" style={{backgroundColor:'#fff'}}/>
+                                        <a href="https://www.linkedin.com/in/hassaan-uddin-sheikh-213474185/" target="blank">
+                                            <img src={linkedin} alt="linkedin" style={{backgroundColor:'#fff'}}/>
                                         </a>
-                                        <a href="" target="blank">
-                                            <img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png" 
-                                            alt="github" style={{backgroundColor:'#fff'}}/>
+                                        <a href="https://github.com/shad0w1911/fnademo" target="blank">
+                                            <img src={github} alt="github" style={{backgroundColor:'#fff'}}/>
                                         </a>
                                         
                                     </div>
